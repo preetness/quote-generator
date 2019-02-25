@@ -26,7 +26,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui center aligned container">
-        <div className="title">Random Quote Generator</div>
+        <div className="ui header title">Random Quote Generator</div>
         <div className="ui section divider" />
         <button className="massive blue ui button" onClick={this.getQuote}>
           Get a Quote!
