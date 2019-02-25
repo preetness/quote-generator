@@ -8,9 +8,9 @@ class QuoteDetails extends React.Component {
         <div>
           <div className="ui center aligned card container">
             <div className="content">
-              <div className="center aligned header">{author}</div>
               <div className="center aligned description">
                 <p>{quote}</p>
+                <div className="center aligned header">{author}</div>
               </div>
             </div>
           </div>
