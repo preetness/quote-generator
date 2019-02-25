@@ -10,3 +10,7 @@
 .ui.section.divider {
   margin: 100px 0 100px 0;
 }
+
+.ui.center.aligned.card.container {
+  margin-top: 100px;
+}
