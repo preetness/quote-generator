@@ -18,6 +18,7 @@ class App extends React.Component {
         quote: response.data.quoteText,
         author: response.data.quoteAuthor
       });
+      console.log(this.state);
     } catch (error) {
       console.log(error);
     }
