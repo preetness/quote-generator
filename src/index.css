@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=B612');
+
+.title {
+  text-align: center;
+  font-family: 'B612', serif;
+  font-size: 45px;
+  margin-top: 10%;
+}
+
+.ui.section.divider {
+  margin: 100px 0 100px 0;
+}
