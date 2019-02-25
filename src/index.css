@@ -10,3 +10,12 @@
 .ui.section.divider {
   margin: 100px 0 100px 0;
 }
+
+.ui.center.aligned.card.container {
+  margin-top: 200px;
+  transform: scale(2.5, 2.5);
+}
+
+.header {
+  font-weight: bold;
+}
