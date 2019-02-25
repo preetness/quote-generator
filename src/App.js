@@ -12,7 +12,7 @@ class App extends React.Component {
   getQuote = async () => {
     try {
       const response = await Axios.get(
-        'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json'
+        'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json'
       );
       this.setState({
         quote: response.data.quoteText,
