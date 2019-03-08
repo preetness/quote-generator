@@ -1,25 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+
 .ui.section.divider {
-  margin: 100px 0 100px 0;
+  margin: 8% 0 8% 0;
 }
 
-.ui.center.aligned.card.container {
-  margin-top: 180px;
-  transform: scale(2);
-  background-color: #f6d856;
-}
-
-.header {
+.ui.header.title {
   font-weight: bold;
+  font-size: 3.5em;
+  margin-top: 8%;
+  font-family: 'Crete Round', sans-serif;
 }
 
 i {
   margin: 0 7px;
 }
 
-.ui.header.title {
+.ui.raised.container.segment {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
-  margin-top: 7%;
+  font-size: 1.7rem;
+  margin-top: 12%;
   color: #ee6b2b;
 }

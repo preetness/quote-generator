@@ -5,7 +5,7 @@ class QuoteDetails extends React.Component {
     const { quote, author } = this.props;
     return (
       quote !== '' && (
-        <div className="ui center aligned card container">
+        <div className="ui raised very padded text container segment">
           <div className="content">
             <div className="center aligned description">
               <p>
